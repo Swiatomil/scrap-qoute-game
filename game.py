@@ -31,9 +31,9 @@ while(end):
                 if gues != cytat.tworca:
                     if input(f"Unfortunetly No, this is quote of {cytat.tworca} do you wanna play again? y/n \n ") == "n": end = 0
                 else:
-                    if input("Bravo! cdo you wanna play again? y/n \n") == "n": end = 0
+                    if input("Bravo! do you wanna play again? y/n \n") == "n": end = 0
             else:
-                if input("Bravo! cdo you wanna play again? y/n \n") == "n": end = 0
+                if input("Bravo! do you wanna play again? y/n \n") == "n": end = 0
         else:
             if input("Bravo! do you wanna play again? y/n \n") == "n": end = 0
     else:
